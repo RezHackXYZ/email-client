@@ -1,38 +1,18 @@
-# sv
+# email
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+a WIP svelte kit email client made by [@RezHackXYZ](https://rezhack.xyz), it uses resend to send email!
 
-## Creating a project
+## how to use
 
-If you're seeing this, you've probably already done this step. Congrats!
+### api key
 
-```bash
-# create a new project in the current directory
-npx sv create
+1. go to [resend.com](https://resend.com/)
+2. create a account in resend
+3. got to [the domains page](https://resend.com/domains) and add your domain to resend
+4. got to [the API keys page](https://resend.com/api-keys) and get a api key
+5. copy the api key once you get it
 
-# create a new project in my-app
-npx sv create my-app
-```
+### deploy
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+click this big button and add the api key you just copied:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRezHackXYZ%2Femail-client&env=VITE_RESEND_API_KEY&envDescription=Api%20key%20used%20to%20send%20emails%20via%20resend&envLink=https%3A%2F%2Fresend.com%2Fapi-keys&project-name=email&repository-name=email)
